@@ -34,6 +34,12 @@ import {Tree} from 'element-ui'
 import {Option,Select} from 'element-ui'
 //导入级联选择器
 import {Cascader} from 'element-ui'
+//导入警示组件
+import {Alert} from 'element-ui'
+//导入标签页组件
+import {Tabs,TabPane} from 'element-ui' 
+
+
 
 
 Vue.use(Button)
@@ -64,7 +70,9 @@ Vue.use(Tree)
 Vue.use(Option)
 Vue.use(Select)
 Vue.use(Cascader)
-
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 
 
