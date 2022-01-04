@@ -26,6 +26,13 @@ import {Pagination} from 'element-ui'
 import {Dialog} from 'element-ui'
 //导入弹框组件
 import { MessageBox } from 'element-ui'
+//导入tag标签
+import {Tag} from 'element-ui'
+//导入树形控件
+import {Tree} from 'element-ui'
+//导入select选择器
+import {Option,Select} from 'element-ui'
+
 
 Vue.use(Button)
 Vue.use(Form)
@@ -50,6 +57,11 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Option)
+Vue.use(Select)
+
 
 
 //弹窗组件必须全局挂载,每一个组件可以通过this访问$message
