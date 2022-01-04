@@ -4,6 +4,8 @@ import router from './router'
 import './plugins/element.js'
 //导入全局样式表
 import './assets/css/global.css'
+//导入树状表格
+import TreeTable from 'vue-table-with-tree-grid'
 //导入axios 基于nodejs和promise的http客户端
 import axios from 'axios'
 //配置请求根路径 根路径即接口基准地址
@@ -20,6 +22,7 @@ Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
 
+Vue.component('tree-table',TreeTable)
 new Vue({
   router,
   render: h => h(App)

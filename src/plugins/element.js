@@ -32,6 +32,8 @@ import {Tag} from 'element-ui'
 import {Tree} from 'element-ui'
 //导入select选择器
 import {Option,Select} from 'element-ui'
+//导入级联选择器
+import {Cascader} from 'element-ui'
 
 
 Vue.use(Button)
@@ -61,6 +63,9 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Option)
 Vue.use(Select)
+Vue.use(Cascader)
+
+
 
 
 
